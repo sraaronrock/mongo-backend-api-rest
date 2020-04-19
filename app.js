@@ -10,13 +10,10 @@ var app = express();
 var product_routes = require('./routes/products');
 
 //BODY PARSER
-app.use(bodyParser.urlencoded({extended:false})); //POST OR PUT TO JSON
+app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
-//Config CORS
-
-
-//BASE ROUTES
+//BASE ROUTE
 app.use('/api', product_routes);
 
 module.exports = app;
