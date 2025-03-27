@@ -10,7 +10,7 @@
   "author": "Aaron Rosa Diaz",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.20.1",
+    "body-parser": "^2.0.0",
     "express": "^4.21.2",
     "mongoose": "^8.0.0"
   },
